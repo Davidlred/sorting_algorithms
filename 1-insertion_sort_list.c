@@ -37,7 +37,7 @@ void insertion_sort_list(listint_t **list)
 					node_next->prev = node_prev;
 
 				node2->prev = node_prev->prev;
-				node2->next = aux_prev;
+				node2->next = node_prev;
 				node_prev->prev = node2;
 				node_prev->next = node_next;
 				print_list(*list);
