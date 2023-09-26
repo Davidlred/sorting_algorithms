@@ -72,3 +72,4 @@ void quick_sort(int *array, size_t size)
 	}
 	set_pivot(array, 0, (int)size - 1, (int)size);
 }
+
